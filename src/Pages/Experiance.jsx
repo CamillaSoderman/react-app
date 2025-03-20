@@ -19,7 +19,6 @@ export default function Experiance(){
                   <Card.Text>{experiance.Year}</Card.Text>
                   <Card.Text>{experiance.Description}</Card.Text>
                 </Card.Body>
-             
               </Card>
               )
             })}
