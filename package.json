@@ -1,7 +1,6 @@
 {
-  "homepage": "https://camillasoderman.github.io/ReactApp",
-  "name": "reactapp",
-  "private": true,
+  "homepage": "https://camillasoderman.github.io/react-app",
+  "name": "react-app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
