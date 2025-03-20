@@ -1,0 +1,26 @@
+{
+    "user": "Camilla",
+    "experiance": [
+        {
+            
+            "Company": "Chas Academy",
+            "Year": "2024-2026",
+            "Description": "Fullstack .Net student"
+        },
+        {
+            "Company": "Swetugg",
+            "Year": "2025",
+            "Description": "Volonteer at the Swetugg Conference in Stockholm 2025"
+        },
+        {
+            "Company": "Applicon",
+            "Year": "2024",
+            "Description": "Junior SAP developer"
+        },
+        {
+            "Company": "Academic Work",
+            "Year": "2023",
+            "Description": "Bright Education Java Course"
+        }
+    ]
+}
