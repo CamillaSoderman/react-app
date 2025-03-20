@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="/ReactApp">
+      <BrowserRouter basename="/react-app">
       <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -25,12 +25,8 @@ function App() {
           <Route path="/experiance" element={<Experiance />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
-        
         <Footer />
       </BrowserRouter>
-      
-      
-
     </>
   )
 }
