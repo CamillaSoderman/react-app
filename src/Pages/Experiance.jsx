@@ -10,7 +10,7 @@ export default function Experiance(){
         <>
         <h1>Experiance</h1>
         <CardGroup>
-            {Cv.Experiance.map( (experiance) => {
+            {Cv.experiance.map( (experiance) => {
               return (
               <Card>
                 <Card.Img variant="top" src="https://picsum.photos/200/300" />
