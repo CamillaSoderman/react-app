@@ -10,7 +10,7 @@ import Experiance from './Pages/Experiance.jsx'
 import Notfound from './Pages/NotFound.jsx'
 
 
-function App() {
+export default function App() {
   
 
   return (
@@ -31,4 +31,3 @@ function App() {
   )
 }
 
-export default App
