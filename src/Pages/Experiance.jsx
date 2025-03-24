@@ -9,11 +9,11 @@ export default function Experiance(){
     return (
         <>
         <h1>Experiance</h1>
-        <CardGroup>
+        <CardGroup className="project-section">
             {Cv.experiance.map( (experiance) => {
               return (
               <Card>
-                <Card.Img variant="top" src="https://picsum.photos/200/300" />
+                <Card.Img variant="top" src="https://picsum.photos/200/300" alt="randome picture"/>
                 <Card.Body>
                   <Card.Title>{experiance.Company}</Card.Title>
                   <Card.Text>{experiance.Year}</Card.Text>
