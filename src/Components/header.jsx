@@ -2,6 +2,15 @@ import '../Style/nav.css'
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
+function hamburgermenu({ openMenu, onClick }) {
+    return (
+        <article
+            className={`menu ${openMenu ? "open-menu" : "closed-menu"}`}
+            onClick={onClick}
+        ></article>
+    );
+}
+
 export default function Navbar(){
 
     const [isNavOpen, setIsNavOpen] = useState(false);
@@ -21,7 +30,11 @@ export default function Navbar(){
                 <h2> Camilla Söderman</h2>
             </Link>
             <nav>
-            <ul className={isNavOpen ? "open" : ""}>
+            <ul className={isNavOpen ? "open" : "closed"}>
+                <article className={"close-hamburgermenu"}
+                    onClick={() => isNavOpen(false)}>
+                        &times;
+                </article>
                     <li><NavLink to="/" id="navHome" >Home</NavLink></li>
                     <li><NavLink to="/about" id="navAbout" >About</NavLink></li>
                     <li><NavLink to="/projects" id="navProject" >Projects</NavLink></li>
@@ -30,6 +43,9 @@ export default function Navbar(){
             </ul>
         </nav>
         <p className="toggle-input" onClick={() => setIsNavOpen(!isNavOpen)} >☰</p>
+ 
+ {/* Menu component for backdrop */}
+ <hamburgermenu openMenu={isNavOpen} onClick={() => setIsNavOpen(false)} />
 
         </header>
         </>
