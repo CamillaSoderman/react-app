@@ -1,3 +1,6 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .project-section{
     display: flex;
     flex-wrap: wrap;
@@ -116,4 +119,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media(max-width:500px) {
+    #aboutMePic{
+        width: 80%;
+        height: 80%;
+    }
 }

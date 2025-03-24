@@ -1,11 +1,16 @@
 import '../Style/nav.css'
-import { Link, NavLink } from 'react-router-dom';
-import { useState } from 'react';
+import { Link, NavLink, useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
 export default function Navbar(){
 
     const [isNavOpen, setIsNavOpen] = useState(false);
+    const url = useLocation();
 
+    useEffetct(() => {
+        setIsNavOpen(false);
+    }, [url]);
+   
 
     return(
         <>
