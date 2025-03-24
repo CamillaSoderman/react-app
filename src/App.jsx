@@ -1,4 +1,4 @@
-import { HashRouter } from 'react-router-dom';
+
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './Components/header.jsx'
 import Footer from './Components/Footer.jsx'
@@ -23,7 +23,7 @@ export default function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/experiance" element={<Experiance />} />
-          <Route path="*" element={<Notfound />} />
+         {/*  <Route path="*" element={<Notfound />} />  */}
         </Routes>
         <Footer />
 
