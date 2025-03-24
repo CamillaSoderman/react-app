@@ -1,5 +1,5 @@
 
-
+import '../Style/index.css'
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Cv from '../assets/ExpData.json'
