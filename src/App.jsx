@@ -6,7 +6,7 @@ import Home from './Pages/index.jsx'
 import About from './Pages/About.jsx'
 import Projects from './Pages/Projects.jsx'
 import Contact from './Pages/Contact.jsx'
-import Experience from './Pages/Experiance.jsx'
+import Experiance from './Pages/Experiance.jsx'
 import Notfound from './Pages/NotFound.jsx'
 
 
@@ -22,7 +22,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/experience" element={<Experience />} />
+          <Route path="/experiance" element={<Experiance />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />
