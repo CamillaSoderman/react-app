@@ -32,10 +32,9 @@ export default function Navbar(){
             <nav>
             <ul className={isNavOpen ? "open" : "closed"}>
 
-                <article className={"close-hamburgermenu"}
-                    onClick={() => isNavOpen(false)}>
-                       
-                </article>
+              {/* <article className={"close-hamburgermenu"}
+                    onClick={() => isNavOpen(false)}></article>*/} 
+                    
                     <li><NavLink to="/" id="navHome" >Home</NavLink></li>
                     <li><NavLink to="/about" id="navAbout" >About</NavLink></li>
                     <li><NavLink to="/projects" id="navProject" >Projects</NavLink></li>
