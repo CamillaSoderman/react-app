@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './Components/header.jsx'
 import Footer from './Components/Footer.jsx'
 
@@ -15,7 +16,7 @@ export default function App() {
 
   return (
     <>
-      <BrowserRouter basename="/react-app">
+    
       <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -26,7 +27,7 @@ export default function App() {
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+
     </>
   )
 }
