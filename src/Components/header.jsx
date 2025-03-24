@@ -31,10 +31,10 @@ export default function Navbar(){
             </Link>
             <nav>
             <ul className={isNavOpen ? "open" : "closed"}>
-                
+
                 <article className={"close-hamburgermenu"}
                     onClick={() => isNavOpen(false)}>
-                        &times;
+                       
                 </article>
                     <li><NavLink to="/" id="navHome" >Home</NavLink></li>
                     <li><NavLink to="/about" id="navAbout" >About</NavLink></li>
