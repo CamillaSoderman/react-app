@@ -42,6 +42,21 @@ a:link {
     z-index: 1;
 }
 
+.hamburgermenu {
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.open-menu {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+.closed-menu {
+    visibility: hidden;
+    opacity: 0;
+}
 
 @media(max-width:700px) {
     .toggle-input {
