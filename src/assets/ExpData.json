@@ -13,14 +13,19 @@
             "Description": "Volonteer at the Swetugg Conference in Stockholm 2025"
         },
         {
+            "Company": "Hemköp",
+            "Year": "2024 and ongoing",
+            "Description": "Part time employee at Hemköp in Huddinge, working in the delicatessen department"
+        },
+        {
             "Company": "Applicon",
             "Year": "2024",
             "Description": "Junior SAP developer"
         },
         {
             "Company": "Academic Work",
-            "Year": "2023",
-            "Description": "Bright Education Java Course"
+            "Year": "2023-2024",
+            "Description": "Bright Education Java Course, a 3 month course in Java programming. After this education I became a consultant at Applicon through Academic Work."
         }
     ]
 }
