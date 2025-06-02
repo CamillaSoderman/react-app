@@ -12,7 +12,8 @@ export default function Card() {
             <div className="project-section">
                 <article className="card-index">
                     <div className="card-head-index">
-                        <img src={proPic} alt="image of Camilla"></img>
+                        <img src={proPic} alt="image of Camilla" className="card-img-fixed" />
+
                     </div>
                     <div className="card-body-index">
                         <h3>Camilla</h3>
@@ -27,7 +28,8 @@ export default function Card() {
                 </article>
                 <article className="card-index">
                     <div className="card-head-index">
-                        <img src={chaschingImg} alt="image of project Chas-ching"></img>
+                        <img src={chaschingImg} alt="image of project Chas-ching" className="card-img-fixed" />
+
                     </div>
                     <div className="card-body-index">
                         <h3>Latest Project</h3>
@@ -41,7 +43,8 @@ export default function Card() {
                 </article>
                 <article className="card-index">
                     <div className="card-head-index">
-                        <img src={linkedIn} alt="linked in icon"></img>
+                        <img src={linkedIn} alt="linked in icon" className="card-img-fixed" />
+
                     </div>
                     <div className="card-body-index">
                         <h3></h3>

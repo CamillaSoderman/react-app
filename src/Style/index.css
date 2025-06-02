@@ -127,3 +127,11 @@ body {
         height: auto;
     }
 }
+
+.card-img-fixed {
+  width: 100%;
+  height: 300px;       /* Adjust based on your layout needs */
+  object-fit: cover;   /* Ensures it fills space without distortion */
+  display: block;
+  margin: 0 auto;
+}
