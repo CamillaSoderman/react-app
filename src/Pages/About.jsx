@@ -4,10 +4,9 @@ import proPic from '../assets/img/profilepic.png'
 export default function About() {
     return (
         <><h1>About Me</h1>
-            <div className="about_me_content">
-                <img id="aboutMePic" src={proPic} alt="image of Camilla" />
-
-                <div id="about_me_p">
+<div className="about_me_content">
+  <img id="aboutMePic" src={proPic} alt="image of Camilla" />
+  <div id="about_me_p">
                     <p>Hi! I’m Camilla, a passionate tech enthusiast with a background in ABAP programming,
                         now diving into the world of full-stack .NET development.
                         When I’m not coding, you’ll probably find me baking something delicious,
