@@ -33,13 +33,13 @@ export default function Card() {
                     <p>This is me, Hi!</p>
                 </div>
                 <button onClick={() => navigate('/about')}>More info</button>
-                <div
+                {/* <div
                     ref={popoverRef}
                     className={`popover-box ${openPopover === 1 ? 'show' : ''}`}
                 >
-                    {/* <h2>More info</h2>
-          <p>You can find more information about me under the tab "About"</p> */}
-                </div>
+                     <h2>More info</h2>
+          <p>You can find more information about me under the tab "About"</p> 
+                </div> */}
             </article>
 
             {/* Card 2 */}
@@ -52,13 +52,13 @@ export default function Card() {
                     <p>Chas-Ching</p>
                 </div>
                 <button onClick={() => navigate('/projects')}>More info</button>
-                <div
+                {/* <div
                     ref={popoverRef}
                     className={`popover-box ${openPopover === 2 ? 'show' : ''}`}
                 >
-                    {/* <h2>More info</h2>
-          <p>You can find more information about me under the tab "Projects"</p> */}
-                </div>
+                     <h2>More info</h2>
+          <p>You can find more information about me under the tab "Projects"</p>
+                </div> */}
             </article>
 
             {/* Card 3 */}

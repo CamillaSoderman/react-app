@@ -41,7 +41,7 @@ export default function Projects() {
                             return (
                                 <article className="card" key={p.name}>
                                     <div className="card-head">
-                                        <img src={gitPic} alt="image of githubs icon"></img>
+                                        <img src={gitPic} alt="image of githubs icon" className="card-img-fixed" ></img>
                                     </div>
                                     <div className="card-body">
                                         <h3>{p.name}</h3>
